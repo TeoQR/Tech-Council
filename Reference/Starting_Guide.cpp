@@ -8,4 +8,9 @@ int main(){
 
   int number5 = 100; //you can also initiate a value for the variables
   
+  //other than int, there are many other data types, please refer to the data type section in "Starting_Guide.txt"
+  
+  int number6 = 100 + 20 / 10; //mathematical operators work as per normal in C++ and the order of operation also follows PEMDAS, in this case number 6 will become 102 instead of 120
+  
+  
 }
