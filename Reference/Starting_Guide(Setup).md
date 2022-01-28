@@ -16,6 +16,8 @@ Suggested IDEs:
 - Geany: [https://www.geany.org/download/releases/](url) (the one under Geany release)
 - Visual Studio Code: [https://code.visualstudio.com/Download](url)
 
+To run the code in the respective IDEs, I suggest searching online
+
 ### Online
 
 Unlike using local machine, you do not need to download anything for this. The recommended platform is replit ([https://replit.com/](url)) as you can save your work there. However, if you do not wish to save your work, you can also use [https://www.onlinegdb.com/online_c++_compiler](url) or any other online IDE for that matter
