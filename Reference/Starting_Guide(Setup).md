@@ -13,8 +13,8 @@ To run C++ locally, you will need a C++ compiler and an IDE (Integrated Developm
 Link to download C++ Compiler: [https://techsupportwhale.com/install-gcc-compiler-on-windows/](url)
 
 Suggested IDEs:
-- Geany: [https://www.geany.org/download/releases/](url) (the one under Geany release)
-- Visual Studio Code: [https://code.visualstudio.com/Download](url)
+- Geany: [https://www.geany.org/download/releases/] (the one under Geany release)
+- Visual Studio Code: [https://code.visualstudio.com/Download]
 
 To run the code in the respective IDEs, I suggest searching online
 
