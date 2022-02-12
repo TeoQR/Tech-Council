@@ -8,6 +8,9 @@ When you create a variable in C++, you have to declare what type it is.
 
 Here's a list of the commonly used data types: [https://www.programiz.com/cpp-programming/data-types](url)
 
+## Input Output
+
+Here's a guide for basic input output, it is recommended to just stick with cin, cout, and getline: [https://www.geeksforgeeks.org/basic-input-output-c/](url) (getline usage is seen in the starting_guide cpp file)
 ## Operators
 
 Here's an explanation of the usage of the various operators in C++: [https://www.programiz.com/cpp-programming/operators](url)
