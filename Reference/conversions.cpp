@@ -7,7 +7,7 @@ int main(){
   int z = (int)x; // to convert from numerical data types (double, long long, etc.)to int, use (int)
   //for numbers that are not integers, converting them into int will round them down
   z = (int)y; //z becomes 1
-  z = (int)(1 == 2); //converts boolean to int, false becomes 0, true becomes 1, for this case, z becomes 0 (for boolean to int, there is no need for conversion since 1 and 0 will be automatically converted to boolean)
+  z = (int)(1 == 2); //converts boolean to int, false becomes 0, true becomes 1, for this case, z becomes 0 (for boolean to int, any number not equal to 0 will be converted to true while 0 will be converted to false)
   string s = "1234";
   z = stoi(s); //to convert string to int, use stoi(), this doesn't work on characters, z becomes 1234
   z = stoi(s[0]); //returns an error
