@@ -14,6 +14,13 @@ int main(){ //int main(){} must exist in your C++ code, think of it as the main 
   
   int number6 = 100 + 20 / 10; //mathematical operators work as per normal in C++ and the order of operation also follows PEMDAS, in this case number 6 will become 102 instead of 120
   
+  int a, b;
+  
+  cin >> a >> b; //asks the user to input to integers, separated by spaces which is then stored in a and b respectively
+  
+  cout << a << ' ' << b; //outputs a and b separated by a single space
+  
+  
   if (number6 < 200)cout << "Yes"; //if you only have one statement inside the if(), you do not need the curly brackets {}
   
   for (int i = 0; i < 10; ++i){
