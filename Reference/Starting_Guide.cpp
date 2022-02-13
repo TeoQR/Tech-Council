@@ -16,9 +16,13 @@ int main(){ //int main(){} must exist in your C++ code, think of it as the main 
   
   int a, b;
   
+  string s; // declare a variable called s which is a string
+  
   cin >> a >> b; //asks the user to input to integers, separated by spaces which is then stored in a and b respectively
   
   cout << a << ' ' << b; //outputs a and b separated by a single space
+  
+  getline(cin, s); //gets one line of input and stores it in s as a string
   
   
   if (number6 < 200)cout << "Yes"; //if you only have one statement inside the if(), you do not need the curly brackets {}
