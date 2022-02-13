@@ -2,19 +2,18 @@
 using namespace std;
 
 int main(){
-  long long x = 100;
-  double y = 1.5;
-  int z = (int)x; // to convert from numerical data types (double, long long, etc.)to int, use (int)
-  //for numbers that are not integers, converting them into int will round them down
-  z = (int)y; //z becomes 1
-  z = (int)(1 == 2); //converts boolean to int, false becomes 0, true becomes 1, for this case, z becomes 0 (for boolean to int, any number not equal to 0 will be converted to true while 0 will be converted to false)
-  string s = "1234";
-  z = stoi(s); //to convert string to int, use stoi(), this doesn't work on characters, z becomes 1234
-  z = stoi(s[0]); //returns an error
-  char c = '2';
-  z = c - '0'; //to convert char to int, subtract the char by '0'. (The reason for this is because when subtraction happens, the chars get automatically converted into their ASCII codes), z becomes 2
-  c = '0' + z; //similarly, use '0' + to convert from char to int, c becomes '2'
-  z = 52;
-  s = to_string(z); // to convert int to string, use the to_string() function
+  char x = 'a'; //char is a data type which stores a single character, the character must be enveloped with the ' '
+  cout << (int)x; //converting char to int will return the ASCII code, in this case, the output would be 97
+  string s1 = "hello"; // the ""
+  for (int i = 0; i < s1.size(); ++i){ //.size() returns the length of the string
+    cout << s1[i];  //string is similar to an array of char, accessing the elements of the string can be done with the [] just like array, thus output would be hello
+  }
+  cout << s1[s1.size() - 1]; //s.size() - 1 is the last index of string s1, this will output o 
+  //the output would be hello, cout << s1 would also output hello
+  string s2 = "world";
+  string s3 = s1 + ' ' + s2 + '!'; //The + operator combines strings together, also remember that single characters must use the single quotes '' instead of the double quotes ""
+  for (auto letter : s3){
+    cout << letter << ' '; //The auto will convert letter into a char, the output would be h e l l o   w  o r l d !
+  }
   
 }
