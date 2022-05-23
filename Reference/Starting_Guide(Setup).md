@@ -1,6 +1,6 @@
 ## Introduction
 
-C++ is a programming language mostly used in competitive programming due to its incredible speed. However, it is also used in other areas such as game development and operating systems.
+C++ is a programming language mostly used in competitive programming due to its incredible speed. It is also used in other areas such as game development and operating systems.
 
 ## Startup
 
