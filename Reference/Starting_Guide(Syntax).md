@@ -30,7 +30,9 @@ For loop: [https://www.w3schools.com/cpp/cpp_for_loop.asp]
 
 For loops and while loops are nearly always alternatives to one another
 
-There is also an extra functionality of for loop where instead of using an iterator, you can iterate directly (Refer to [strings](Strings.cpp))
+There is also an extra functionality of for loop which is called range based for loop. See: [https://www.geeksforgeeks.org/range-based-loop-c/]
+
+Notice that in the above link, there is an auto keyword. Auto deduces the data type of the variable for you so you don't have to declare the data types yourself. Honestly, it's up to your preference how often you want to use auto, I personally recommend only using it for range based for loop or when there is a very complicated data type. I have yet to see someone who uses auto for every single variable. Documentation: [https://docs.microsoft.com/en-us/cpp/cpp/auto-cpp?view=msvc-170] 
 
 Break and continue: [https://www.w3schools.com/cpp/cpp_break.asp]
 
