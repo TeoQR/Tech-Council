@@ -30,6 +30,8 @@ For loop: [https://www.w3schools.com/cpp/cpp_for_loop.asp]
 
 For loops and while loops are nearly always alternatives to one another
 
+There is also an extra functionality of for loop where instead of using an iterator, you can iterate directly (Refer to [strings](Strings.cpp))
+
 Break and continue: [https://www.w3schools.com/cpp/cpp_break.asp]
 
 Break and continue only apply to the most inner loop it is in, for more details look at the example in line 37 in the cpp file
