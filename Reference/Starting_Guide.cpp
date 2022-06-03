@@ -1,12 +1,12 @@
 #include <bits/stdc++.h> //allows you to use many useful functions
-using namespace std; //just add it, it makes your life better
+using namespace std; //just add it, it makes your life easier
 
-int main(){ //int main(){} must exist in your C++ code, think of it as the main body of the code
+int main(){ //int main(){} must exist in your C++ code, think of it as the main body of the code, you should write most of your code here
   
   //when declaring a variable, write its data type before its name
   int number1; //declaring a variable called number1 which is an integer
 
-  int number2, number3, number4; //it is possible to declaring multiple variables at once as long as they're the same data type
+  int number2, number3, number4; //it is possible to declare multiple variables at once as long as they're the same data type
 
   int number5 = 100; //you can also initiate a value for the variables
   
@@ -18,7 +18,12 @@ int main(){ //int main(){} must exist in your C++ code, think of it as the main 
   
   string s; // declare a variable called s which is a string
   
-  cin >> a >> b; //asks the user to input to integers, separated by spaces which is then stored in a and b respectively
+  cin >> a >> b; /*asks the user to input two integers. When inputting, SPACE and ENTER is a terminating key, so if you want to input 100 into the variable a and 200 to the variable b, here is how you can input it:
+  100 200
+  OR
+  100
+  200
+  */
   
   cout << a << ' ' << b; //outputs a and b separated by a single space
   
