@@ -10,7 +10,7 @@ There are two ways you can run C++ programs, either using your local machine or 
 
 To run C++ locally, you will need a C++ compiler and an IDE (Integrated Development Environment).
 
-Link to download C++ Compiler: [https://techsupportwhale.com/install-gcc-compiler-on-windows/](url)
+Link to download C++ Compiler: [https://techsupportwhale.com/install-gcc-compiler-on-windows/]
 
 Suggested IDEs:
 - Geany: [https://www.geany.org/download/releases/] (the one under Geany release)
@@ -20,4 +20,4 @@ To run the code in the respective IDEs, I suggest searching online
 
 ### Online
 
-Unlike using local machine, you do not need to download anything for this. The recommended platform is replit ([https://replit.com/](url)) as you can save your work there. However, if you do not wish to save your work, you can also use [https://www.onlinegdb.com/online_c++_compiler](url) or any other online IDE for that matter
+Unlike using local machine, you do not need to download anything for this. The recommended platform is replit ([https://replit.com/]) as you can save your work there. However, if you do not wish to save your work, you can also use [https://www.onlinegdb.com/online_c++_compiler] or any other online IDE for that matter
