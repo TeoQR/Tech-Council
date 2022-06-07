@@ -7,7 +7,7 @@ Below is a table for the list of methods of conversions of data types from data 
 |double|int|(int)|
 |float|int|(int)|
 |bool|int|(int)|
-|string|int|(stoi)|
+|string|int|stoi()|
 |char|int|-'0'|
 |int|char|'0'+|
 |int|string|to_string()|
