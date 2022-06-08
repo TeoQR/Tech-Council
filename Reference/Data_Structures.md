@@ -14,6 +14,6 @@ Pairs allow you to store two variable which may or may not have the same data ty
 Documentation: [https://www.geeksforgeeks.org/pair-in-cpp-stl/]
 
 ## Maps
-Maps is a data structure which maps keys (any data type) to their respective values (also
+Maps is a data structure which maps keys (any data type) to their respective values (also any data type). Unlike arrays and
 
 
