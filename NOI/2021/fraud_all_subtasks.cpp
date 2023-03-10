@@ -5,6 +5,7 @@ using namespace std;
 
 signed main()
 {
+//  input
     int n; cin >> n;
     int a[n], b[n];
     for (int i = 0; i < n; ++i){
@@ -13,7 +14,7 @@ signed main()
     for (int i = 0; i < n; ++i){
         cin >> b[i];
     }
-    int d = 0;
+//the intersection would be lo * Y < X < hi * Y
     double lo = 0, hi = 1e18+1;
     string ans = "YES";
     for (int i = 1; i < n; ++i){
